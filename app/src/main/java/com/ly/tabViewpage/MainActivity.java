@@ -15,6 +15,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.ly.tabViewpage.adapter.BeatsFragmentAdapter;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private TabLayout tabLayout;
@@ -53,7 +55,7 @@ public class MainActivity extends AppCompatActivity
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         beatsFragmentAdapter = new BeatsFragmentAdapter(getSupportFragmentManager());
         viewPager.setAdapter(beatsFragmentAdapter);
-        viewPager.setCurrentItem(1);
+        viewPager.setCurrentItem(0);
         viewPager.setOffscreenPageLimit(beatsFragmentAdapter.getCount());
         //将tabLayout与viewpager连起来
         tabLayout.setupWithViewPager(viewPager);

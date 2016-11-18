@@ -18,7 +18,9 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <!--layout_scrollFlags 设置toolbar滑动隐藏-->
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tab_layout"

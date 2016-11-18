@@ -3,6 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="white">#FFFFFF</color>
     <color name="white_alpha">#8AFFFFFF</color>
+    <color name="card_view_background_dark">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="font_normal">#555555</color>
+    <color name="black_90">#dd000000</color>
 </resources>
